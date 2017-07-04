@@ -1,15 +1,54 @@
 body{
-	font-family: 'Lily Script One', cursive;
+	font-family: 'Source Sans Pro', sans-serif;
+	background-image: url(../images/big-white.png)
 }
 h1{
 	font-family: 'Monoton', cursive;
+	color:#7397C2;
 }
 h4{
 	font-family: 'Press Start 2P', cursive;
 	font-size:18px;
+	color:#83A3B5;
 }
 
 h3{
 	font-family: 'Press Start 2P', cursive;
 	font-size:20px;
+	color:#A384A8;
+}
+.cont-one{
+	background-image: url(../images/purple.png);
+	padding: 0 0 10px 0;
+}
+.incoming-cont{
+	background-image: url(../images/white.png);
+}
+.completed-cont{
+	background-image: url(../images/pink.png)
+}
+#send{
+	width:100%;
+	background-color: #C1C1F5;
+}
+#add::placeholder{
+	color:white;
+	text-align: center;
+	font-weight:bolder;
+}
+#add{
+	border-bottom: 1px solid purple;
+}
+#add:hover{
+	border-bottom:1px solid blue;
+}
+#tasks{
+	color:white;
+}
+#ls{
+	color: black;
+}
+.erase{
+	cursor:pointer;
+	float:right;
 }
