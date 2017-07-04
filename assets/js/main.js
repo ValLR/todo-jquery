@@ -20,7 +20,9 @@ $(document).ready(function(){ /*con ready el jquery sólo carga cuando a página
 			$(this).parent().remove();
 		});
 
-		$(document).on("click", "#checkbox", function(){
+
+//funcion para pasar las tareas con ticket en el checkbox a div de tareas completadas
+		$(document).on("click", "#casilla", function(){
 			//se elimina el ticket(todo) en el primer nodo y se le agrega al otro nodo.
 			var erase = $(this).parent().remove();
 			$("#completed-task").append(erase);
